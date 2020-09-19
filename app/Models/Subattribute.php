@@ -16,6 +16,11 @@ class Subattribute extends Model
         return $this->hasMany(Subattribute_value::class);
     }
 
+    public function product_values()
+    {
+        return $this->hasOne(Product_subattribute::class);
+    }
+
 
     public function group_attribute()
     {

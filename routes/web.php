@@ -30,13 +30,18 @@ Route::namespace('Client')->group(function () {
     Route::get('/blog', 'IndexController@blog')->name('blog');
     Route::get('/blog/{url}', 'IndexController@getBlog');
     Route::get('/shop', 'IndexController@shop')->name('shop');
-
+    Route::get('/product/{url}', 'IndexController@getProduct');
 
 
 
     Route::post('/get-articles', 'ArticleController@getArticles');
     Route::post('/get-article', 'ArticleController@getArticle');
     Route::get('/get-article-group', 'ArticleController@getArticleGroup');
+
+
+    Route::post('/get-products', 'ShopController@getProducts');
+    Route::post('/get-product', 'ShopController@getProduct');
+    Route::get('/get-product-group', 'ShopController@getProductGroup');
 });
 
 // dashboard

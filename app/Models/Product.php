@@ -24,6 +24,11 @@ class Product extends Model
         return $this->belongsToMany(Guarantee::class);
     }
 
+    public function attributes()
+    {
+        return $this->belongsToMany(Subattribute::class, 'product_subattributes');
+    }
+
     public function brand()
     {
         return $this->belongsTo(Brand::class);

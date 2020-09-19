@@ -41,11 +41,11 @@
             </div>
 
 
-            <div v-if="total > 0">
+            <div v-if="total > 5">
                 <b-pagination v-model="page" :total-rows="total" :per-page="5" first-number last-number
                               style="padding: 0; width: fit-content; margin: 0 auto"></b-pagination>
             </div>
-            <div v-else>
+            <div v-if="total === 0">
                 <div class="alert alert-warning" role="alert">
                     در این دسته بندی مطلبی وجود ندارد.
                 </div>

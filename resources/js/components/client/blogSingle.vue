@@ -1,23 +1,23 @@
 <template>
     <div class="row">
-        <div class="col-3">
-            <ul class="list-group blog-category">
-                <li class="list-group-item bg-blog-category">
-                    دسته بندی مطالب
-                </li>
-                <li class="list-group-item p-0">
-                    <span class="d-flex justify-content-between align-items-center px-3 py-2 pointer" @click="getArticles(0)">
-                        همه دسته ها
-                        </span>
-                </li>
-                <li class="list-group-item p-0" v-for="item in article_groups">
-                    <span class="d-flex justify-content-between align-items-center px-3 py-2 pointer" @click="getArticles(item.id)">
-                        {{item.name}}
-                        </span>
-                </li>
-            </ul>
-        </div>
-        <div class="col-9">
+<!--        <div class="col-3">-->
+<!--            <ul class="list-group blog-category">-->
+<!--                <li class="list-group-item bg-blog-category">-->
+<!--                    دسته بندی مطالب-->
+<!--                </li>-->
+<!--                <li class="list-group-item p-0">-->
+<!--                    <span class="d-flex justify-content-between align-items-center px-3 py-2 pointer" @click="getArticles(0)">-->
+<!--                        همه دسته ها-->
+<!--                        </span>-->
+<!--                </li>-->
+<!--                <li class="list-group-item p-0" v-for="item in article_groups">-->
+<!--                    <span class="d-flex justify-content-between align-items-center px-3 py-2 pointer" @click="getArticles(item.id)">-->
+<!--                        {{item.name}}-->
+<!--                        </span>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+        <div class="col-12">
             <h1 class="blog-title mb-4">{{article.title}}</h1>
             <img :src="'/media/article/'+article.id+'/original.png'" width="100%" alt="">
             <div class="my-3">
@@ -42,15 +42,15 @@
         name: "blogSingle",
         data() {
             return {
-                cat_id : 0,
-                article_groups: [],
+                // cat_id : 0,
+                // article_groups: [],
                 article: null,
             }
         },
         props:['articleid'],
         mounted() {
             this.getArticle();
-            this.getArticleGroups();
+            // this.getArticleGroups();
         },
         methods: {
             getArticle() {
@@ -59,12 +59,12 @@
                         this.article = res.data;
                     });
             },
-            getArticleGroups() {
-                axios.get('/get-article-group')
-                    .then(res => {
-                        this.article_groups = res.data;
-                    });
-            },
+            // getArticleGroups() {
+            //     axios.get('/get-article-group')
+            //         .then(res => {
+            //             this.article_groups = res.data;
+            //         });
+            // },
         }
     }
 </script>

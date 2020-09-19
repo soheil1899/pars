@@ -15,6 +15,7 @@ Vue.component('shop-slider', require('./components/client/shopSlider.vue').defau
 Vue.component('blog-list', require('./components/client/blogList.vue').default);
 Vue.component('blog-single', require('./components/client/blogSingle.vue').default);
 Vue.component('product-list', require('./components/client/productList.vue').default);
+Vue.component('product-single', require('./components/client/productSingle.vue').default);
 
 
 

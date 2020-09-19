@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ee60588-2111-4862-9b2c-c805617f8039" name="Default Changelist" comment="" />
+    <list default="true" id="4ee60588-2111-4862-9b2c-c805617f8039" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a8e408f-d976-467f-82a6-3677081d1762.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0a8e408f-d976-467f-82a6-3677081d1762.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Client/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Client/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Subattribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Subattribute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/clientApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/clientApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/clientApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/clientApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/client/blogList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/client/blogList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/client/blogSingle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/client/blogSingle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/client/productList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/client/productList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/clientApp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/clientApp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,19 +224,19 @@
     <property name="ts.external.directory.path" value="F:\installed programs\PhpStorm 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\website\my_test\somo-cms-master\resources\js\components\client" />
-      <recent name="D:\website\my_test\somo-cms-master\resources\views\client" />
-      <recent name="D:\website\my_test\somo-cms-master\resources\views\layouts\client" />
-      <recent name="F:\web\2-98\somo\resources\js\components\admin\setting" />
-      <recent name="F:\web\2-98\somo\resources\views\admin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\web\2-98\somo\app\Http\Controllers\Client" />
       <recent name="F:\web\2-98\somo\public\media\filemanager\setting" />
       <recent name="F:\web\2-98\somo\resources\js\components\admin\users" />
       <recent name="F:\web\2-98\somo\resources\js\components\admin\setting" />
       <recent name="F:\web\2-98\somo\resources\js\components\admin\product" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\website\my_test\somo-cms-master\resources\js\components\client" />
+      <recent name="D:\website\my_test\somo-cms-master\resources\views\client" />
+      <recent name="D:\website\my_test\somo-cms-master\public\media\product" />
+      <recent name="D:\website\my_test\somo-cms-master\resources\views\layouts\client" />
+      <recent name="F:\web\2-98\somo\resources\js\components\admin\setting" />
     </key>
   </component>
   <component name="RunManager">
@@ -303,7 +320,9 @@
       <workItem from="1600144296103" duration="26656000" />
       <workItem from="1600173288085" duration="14000" />
       <workItem from="1600234869158" duration="17570000" />
-      <workItem from="1600317085466" duration="9785000" />
+      <workItem from="1600317085466" duration="10450000" />
+      <workItem from="1600489645931" duration="24000" />
+      <workItem from="1600498531202" duration="9959000" />
     </task>
     <servers />
   </component>
@@ -328,14 +347,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="178" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600234914526" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600326782568">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600508369955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600326782568" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600317445763">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600508369955" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600501788940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600317445763" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600501788940" />
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600252934263" />
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1600145309270">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -345,18 +364,20 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600234901136" />
-    <state x="578" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600330573036">
+    <state x="578" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600508436361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="578" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600330573036" />
+    <state x="578" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600508436361" />
     <state x="2498" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600246851851" />
-    <state x="2536" y="240" key="run.anything.popup" timestamp="1600248040913">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1600508027294">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600508027294" />
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600248040913" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600148573812">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600509813448">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600509813448" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600148573812" />
   </component>
 </project>
